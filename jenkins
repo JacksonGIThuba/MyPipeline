@@ -8,8 +8,8 @@
             }
             post {
                 always {
-                    mail to: "jacksonbouwman12@gmail.com"
-                    subject: "build status email"
+                    mail to: "jacksonbouwman12@gmail.com",
+                    subject: "build status email",
                     body: "this worked blud"
         
                     }
